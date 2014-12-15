@@ -2,13 +2,11 @@
 <html lang='en'>
   <head>
 
-    <title>BigBlueButton - Open Source Web Conferencing</title>
-    <meta name="description" content="BigBlueButton enables universities and colleges to deliver a high-quality learning experience to remote students.">
-    <meta name="keywords" content="BigBlueButton, Open Source Web Conferencing, Distance Education, Courses Online, Web Conferencing, Open Source, Desktop Sharing, Video Conferencing, Video Collaboration, Presentation Sharing, Audio Sharing, Voice Collaboration, Public Chat, Webcam Sharing, Annotation, Whiteboard, Integrated Voice Over IP, Collaboration Software, Online Collaboration, Collaborative Learning, Virtual Classroom">
+    <title>LearnDoor VCS - 师道网络远程会议系统Bigbluebutton定制版</title>
+    <meta name="description" content="LearnDoor VCS-BBB是基于Bigbluebutton的深度定制版本，可用于小型远程会议，在线答疑，远程教育，桌面共享等多种场景">
+    <meta name="keywords" content="LearnDoor VCS, BigBlueButton, Open Source Web Conferencing, Distance Education, Courses Online, Web Conferencing, Open Source, Desktop Sharing, Video Conferencing, Video Collaboration, Presentation Sharing, Audio Sharing, Voice Collaboration, Public Chat, Webcam Sharing, Annotation, Whiteboard, Integrated Voice Over IP, Collaboration Software, Online Collaboration, Collaborative Learning, Virtual Classroom">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="icon" href="images/favicon.png">
-
-
+	<link rel="icon" href="images/favicon.png">
     <link rel="stylesheet" href="css/bijou.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -16,16 +14,12 @@
   <body>
     <div class='main'>
 
-    <!-- Github Fork Ribbon -->
-    <a href="https://github.com/bigbluebutton/bigbluebutton">
-        <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub">
-    </a>
-
+    
     <!-- Header -->
     <div class='navbar'>
       <div class='container'>
         <div class="logo">
-          <img src="images/bbb-logo.png" alt="BigBlueButton Demo"/>
+          <img src="images/logo.png" alt="BigBlueButton Demo"/>
         </div>
       </div>
     </div>
@@ -36,28 +30,24 @@
       <!-- Welcome Message & Login Into Demo -->
       <div class='row'>
         <div class='span five'>
-          <h2>Welcome</h2>
-          <p> <a href="http://bigbluebutton.org/" target="_blank">BigBlueButton</a> is an open source web conferencing system for on-line learning. </p>
-          <p> We believe that every student with a web browser should have access to a high-quality on-line learning experience </p>
-          <p> We intend to make that possible with BigBlueButton.</p>
-
-          <h4>For Developers</h4>
-          <p> The BigBlueButton project is <a href="http://bigbluebutton.org/support">supported</a> by a community of developers that care about good design and a streamlined user experience. </p>
-          <p>See <a href="/demo/demo1.jsp" target="_blank">API examples </a> for how to integrate BigBlueButton with your project.</p>
+          <h2 class="center">欢迎使用LearnDoor VCS</h2>
+		  <p class="center">
+		     <img src="http://www.learndoor.cn/wp-content/themes/learndoor/images/1-1403101Q533159.png" /></p>
+	      <p class="center">微信扫描上方的二维码，关注师道网</p>
         </div>
 				<div class="span one"></div>
         <div class='span six'>
           <div class='join-metting  pull-right'>
-            <h4>Try BigBlueButton</h4>
-            <p>Join a demo session on this server.</p>
+            <h4>加入体验会议/课程</h4>
+            <p>输入您的姓名，体验我们的演示会议/课堂</p>
 
             <form name="form1" method="GET" onsubmit="return checkform(this);" action="/demo/demo1.jsp">
               <input type="text" id="username" required="" name="username" placeholder="Enter Your Name" size="29" class="field input-default" autofocus>
-              <input type="submit" value="Join" class="submit_btn button success large"><br>
+              <input type="submit" value="立即加入" class="submit_btn button success large"><br>
               <input type="hidden" name="action" value="create">
             </form>
 
-          <a class="watch" href="#video" class="pull-right">New to BigBlueButton?  Watch these videos.</a>
+			<a class="watch" href="#video" class="pull-right">如需帮助，请拨打400-992-3618 或 021-6051 0166</a>
 
           </div>
 
@@ -73,68 +63,45 @@
 	          <h2>Features</h2>
 	        </div>
 	
-	        <div class='span four first'>
+	        <div class='span three first'>
 	          <i class="fa fa-play-circle-o"></i>
 	
 	          <div class="bbb-features-content">
-	            <h3>Record and Playback</h3>
-	            <p>BigBlueButton can record your sessions for later playback by students.</p>
+	            <h3>录制与回放</h3>
+	            <p>您可以选择录制您的每次直播课程，学生可随时观看录播内容！</p>
 	          </div>
 	        </div>
 	
-	        <div class='span four'>
+	        <div class='span three'>
 	          <i class="fa fa-pencil-square-o"></i>
 	
 	          <div class="bbb-features-content">
-	            <h3>Whiteboard</h3>
-	            <p>The whiteboard controls let you annotate key parts of your presentation.</p>
+	            <h3>白板</h3>
+	            <p>在会议/课程/ppt演示过程中，您可以随时调取白板</p>
 	          </div>
 	        </div>
-	
-	        <div class='span four last'>
-	          <i class="fa fa-desktop"></i>
-	
-	          <div class="bbb-features-content">
-	            <h3>Desktop Sharing</h3>
-	            <p>You can broadcast your desktop for all users to see (requires lastest version of Java for presenter only).</p>
-	          </div>
-	        </div>
-	      </div>
-	
-	
-	      <div class='row'>
-	        <div class='span four first'>
-	          <i class="fa fa-microphone"></i>
-	
-	          <div class="bbb-features-content">
-	            <h3>WebRTC Audio</h3>
-	            <p>Users of Chrome and FireFox browsers will benefit from high-quality, low-latency WebRTC audio. (Users of other browsers will seamlessly use Flash-based audio.)</p>
-	          </div>
-	        </div>
-	
-	        <div class='span four'>
+	        <div class='span three'>
 	          <i class="fa fa-bar-chart-o"></i>
 	
 	          <div class="bbb-features-content">
-	            <h3>Presentation</h3>
-	            <p>You can upload any PDF presentation or MS office document. BigBlueButton keeps everyone in sync with your current slide, zoom, pan, annotations, and mouse pointer.</p>
+	            <h3>PPT演示</h3>
+	            <p>您可以上传PDF或Microsoft Office文档，演示内容、勾画点选将通过网络同步到每一个参会者/学生面前</p>
 	          </div>
 	        </div>
-	
-	        <div class='span four last'>
-	          <i class="fa fa-video-camera"></i>
+	        <div class='span three last'>
+	          <i class="fa fa-desktop"></i>
 	
 	          <div class="bbb-features-content">
-	            <h3>Web Cam</h3>
-	            <p>Multiple users can share their webcam at the same time. There is no built-in limit on the number of simultaneously active webcams.</p>
+	            <h3>桌面共享</h3>
+	            <p>您可以通过桌面共享功能进行桌面演示</p>
 	          </div>
 	        </div>
 	      </div>
       </div>
-      <hr class="featurette-divider">
+      <!--hr class="featurette-divider"-->
 
       <!-- BigBlueButton Videos -->
-      <div id="video" class="bbb-videos">
+      <!--div id="video" class="bbb-videos">
 	      <div class='row'>
 	        <div class='featurette-heading'>
 	          <h2>Getting Started Quickly</h2>
@@ -164,7 +131,7 @@
 	          <h3><a href="https://www.youtube.com/watch?v=J9mbw00P9W0&feature=youtu.be" title="Moderator/Presenter Overview" target="_blank">Moderator/Presenter Overview</a></h3>
 	        </div>
 	      </div>
-      </div>
+      </div-->
 
       </div>
     </div>
@@ -174,8 +141,8 @@
       <div class='container'>
       
 	      <div class="row">
-	      	<div class="span six first">
-		        <p>BigBlueButton and the BigBlueButton logo are trademarks of <a href="http://bigbluebutton.org/">BigBlueButton Inc.</a></p>	
+	      	<!--div class="span six first">
+				
 	      	</div>	        
 	      	<div class="span six last">
 						<ul>
@@ -187,14 +154,22 @@
 							<li><a class="youtube" href="http://www.youtube.com/bigbluebuttonshare" title="BigBlueButton YouTube Page" target="_blank"><i class="fa fa-youtube"></i> </a></li>
 							<li><a class="google" href="http://google.com/+bigbluebutton" title="BigBlueButton Google Plus" target="_blank"><i class="fa fa-google-plus"></i></a></li>
 						</ul>
-	      	</div>
+	      	</div-->
+			<div class="center">
+				<img src="http://www.learndoor.cn/wp-content/themes/learndoor/images/1-1403101Q533159.png" />
+				<p>微信关注</p>
+			</div>
 	      </div>
 
 
 	      <div class="row">
 	      	<div class="span twelve center">
-		        <p>Copyright &copy; 2014 BigBlueButton Inc.<br>
-		        <small>Version <a href="https://code.google.com/p/bigbluebutton/wiki/090Docs">0.9.0-beta</a></small>		        
+		        <p>Copyright &copy; 2014 师道网络科技（上海）有限公司<br>
+		        <!--small>Version <a href="https://code.google.com/p/bigbluebutton/wiki/090Docs">0.9.0-beta</a></small-->
+				<small>
+					本系统所有服务均由 <a href="http://www.learndoor.cn/" target="_blank">师道网络科技（上海）有限公司</a> 提供技术支持。
+					BigBlueButton商标以及BigBlueButton的logo图标属于 <a href="http://bigbluebutton.org/" target="_blank">BigBlueButton Inc.</a>所有
+				</small>		        
 		        </p>
 	      	</div>
 	      </div>	
