@@ -1,19 +1,19 @@
 <?xml version="1.0" ?>
 <locales>
-	<locale code="ar_SY" name="Arabic (Syria)"/>
+	<!-- locale code="ar_SY" name="Arabic (Syria)"/>
 	<locale code="az_AZ" name="Azerbaijani"/>
 	<locale code="eu_EU" name="Basque" />
 	<locale code="bn_BN" name="Bengali" />
 	<locale code="bg_BG" name="Bulgarian" />
-	<locale code="ca_ES" name="Catalan" />
+	<locale code="ca_ES" name="Catalan" / -->
 	<locale code="zh_CN" name="Chinese (Simplified)"/>
 	<locale code="zh_TW" name="Chinese (Traditional)"/>
-	<locale code="hr_HR" name="Croatian" />
+	<!-- locale code="hr_HR" name="Croatian" />
 	<locale code="cs_CZ" name="Czech" />
 	<locale code="da_DK" name="Danish" />
-	<locale code="nl_NL" name="Dutch" />
+	<locale code="nl_NL" name="Dutch" / -->
 	<locale code="en_US" name="English"/>
-	<locale code="et_EE" name="Estonian"/>
+	<!-- locale code="et_EE" name="Estonian"/>
 	<locale code="fa_IR" name="Farsi" />
 	<locale code="fi_FI" name="Finnish"/>
 	<locale code="fr_FR" name="French"/>
@@ -49,5 +49,5 @@
 	<locale code="tr_TR" name="Turkish"/>
 	<locale code="uk_UA" name="Ukrainian"/>
 	<locale code="vi_VN" name="Vietnamese"/>
-        <locale code="cy_GB" name="Welsh"/>
+        <locale code="cy_GB" name="Welsh"/ -->
 </locales>
