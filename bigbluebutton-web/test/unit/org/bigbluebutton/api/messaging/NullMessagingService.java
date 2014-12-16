@@ -96,4 +96,13 @@ public class NullMessagingService implements MessagingService {
 	  
   }
 
+	@Override
+	public void createMeeting(String meetingID, String externalMeetingID,
+			String meetingName, Boolean recorded, String voiceBridge,
+			Long duration, Boolean autoStartRecording,
+			Boolean allowStartStopRecording) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
